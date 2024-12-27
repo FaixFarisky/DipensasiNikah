@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+
+  }
+  
+  code {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  /* Nav */
+  .custom-nav .collapse {
+    justify-content: flex-end;
+  }
+  /* End Nav */
+  
+  /* Home */
+  /* End home */
+  
+  /* Login */
+  .login {
+    min-height: 100vh;
+    align-items: center;
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 20%,
+      rgba(27, 146, 196, 1) 56%,
+      #020024 73%
+    );
+  }
+  
+  .login h6 {
+    margin-top: 15px;
+    color: white;
+  }
+  
+  /* End Login */
+  
+  /* Register */
+  .register {
+    min-height: 100vh;
+    align-items: center;
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 20%,
+      rgba(27, 146, 196, 1) 56%,
+      rgba(2, 0, 36, 1) 73%
+    );
+  }
+  /* End register */
+  
